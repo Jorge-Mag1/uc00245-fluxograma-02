@@ -31,6 +31,28 @@ namespace Fluxograma02
 
             }//fim do while
 
+            // Acabaram os documentos
+            Console.WriteLine("JÁ NÃO HÁ DOCUMENTOS");
+            Console.WriteLine("AINDA TEM ATIVIDADE");
+
+            // Variavel do tipo boleana
+            bool temAtividade = true; // podemos mudar para falso
+
+            if (temAtividade == true)
+            {
+                Console.WriteLine("SIM, TEM ATIVIDADE");
+            }
+            else
+            {
+                Console.WriteLine("NÃO TEM ATIVIDADE");
+            }
+
+            // BLOCO DO FIM
+            Console.WriteLine("6. FIM");
+
+            Console.WriteLine("\n ******FIM DE PROGRAMA******");
+
+
         }// fim main
 
 
